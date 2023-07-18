@@ -1,0 +1,224 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: image-set('https://cdn.discordapp.com/attachments/751655635661357067/1128652428514967643/Acer_Wallpaper_03_3840x2400.jpg');
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0d1a63;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tutorial-grid,
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.tutorial-item,
+.project-item {
+    text-align: center;
+}
+
+.tutorial-item h3,
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.tutorial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tutorial h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tutorial-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.tutorial-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.project {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.project-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.trial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trial h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.trial-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #34d229;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.info-item img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    background: #333;
+    color: #fffafa;
+    padding: 20px;
+    text-align: center;
+}
+
